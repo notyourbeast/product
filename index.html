@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <img src="./netflixlogo.png" alt="Netflix Logo" class="logo">
+    <nav>
+      <ul class="nav-links">
+        <li><a href="tvshows.html">TV Shows</a></li>
+        <li><a href="movies.html">Movies</a></li>
+        <li><a href="new-popular.html">New & Popular</a></li>
+        <li><a href="mylist.html">My List</a></li>
+        <li><a href="languages.html">Browse by Languages</a></li>
+    
+      </ul>
+    </nav>
+    <div class="profile">
+      <input type="text" placeholder="Search">
+      <img src="./icons8-male-user-50.png" alt="Profile">
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <video id="background-video" autoplay loop muted poster="./V1.mp4">
+        <source src="./V1.mp4" type="video/mp4">
+      </video>
+      <h1>13 Reasons Why</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Watch now or add to your list.</p>
+      <button class="btn">Play</button>
+      <button class="btn btn-light">More Info</button>
+    </div>
+  </section>
+
+  <!-- Movie Carousels -->
+  <section class="carousel">
+    <h2>Trending Now</h2>
+    <div class="carousel-container" id="trending">
+      <button class="scroll-btn left" onclick="scrollLeft('trending')">&#10094;</button>
+      <div class="carousel-items">
+        <img src="./SR9.jpg" alt="Movie 1">
+        <img src="./CR5.jpeg" alt="Movie 2">
+        <img src="./CR5.jpeg" alt="Movie 3">
+        <img src="./CR9.jpg" alt="Movie 4">
+        <img src="./SR10.jpg" alt="Movie 5">
+        <img src="./SR3.jpg" alt="Movie 6">
+        <img src="./SR4.jpg" alt="Movie 7">
+        <img src="./SR5.jpg" alt="Movie 8">
+        <img src="./SR6.jpg" alt="Movie 9">
+        <img src="./SR8.jpg" alt="Movie 10">
+
+      </div>
+      <button class="scroll-btn right" onclick="scrollRight('trending')">&#10095;</button>
+    </div>
+
+    <!--carousel 2-->
+   
+    <h2>Anime</h2>
+    <div class="carousel-container" id="trending">
+        <button class="scroll-btn left" onclick="scrollLeft('trending')">&#10094;</button>
+        <div class="carousel-items">
+          <img src="./A1.png" alt="Movie 1">
+          <img src="./A2.jpg" alt="Movie 2">
+          <img src="./A3.jpg" alt="Movie 3">
+          <img src="./A4.jpg" alt="Movie 4">
+          <img src="./A6.jpg" alt="Movie 5">
+          <img src="./A8.jpg" alt="Movie 6">
+          <img src="./A9.jpg" alt="Movie 7">
+          <img src="assets/movie3.jpg" alt="Movie 8">
+          <img src="assets/movie4.jpg" alt="Movie 9">
+          <img src="assets/movie5.jpg" alt="Movie 10">
+  
+        </div>
+        <button class="scroll-btn right" onclick="scrollRight('trending')">&#10095;</button>
+      </div>
+
+      
+
+      <!--carousel 3-->
+      <h2>Romantic movies</h2>
+    <div class="carousel-container" id="trending">
+        <button class="scroll-btn left" onclick="scrollLeft('trending')">&#10094;</button>
+        <div class="carousel-items">
+          <img src="./SR9.jpg" alt="Movie 1">
+          <img src="./CR5.jpeg" alt="Movie 2">
+          <img src="./CR5.jpeg" alt="Movie 3">
+          <img src="./CR9.jpg" alt="Movie 4">
+          <img src="./SR10.jpg" alt="Movie 5">
+          <img src="./SR3.jpg" alt="Movie 6">
+          <img src="./SR4.jpg" alt="Movie 7">
+          <img src="./SR5.jpg" alt="Movie 8">
+          <img src="./SR6.jpg" alt="Movie 9">
+          <img src="./SR8.jpg" alt="Movie 10">
+  
+        </div>
+        <button class="scroll-btn right" onclick="scrollRight('trending')">&#10095;</button>
+      </div>
+
+      <!--carousel 4-->
+      <h2>Sci-fi thrillers</h2>
+    <div class="carousel-container" id="trending">
+        <button class="scroll-btn left" onclick="scrollLeft('trending')">&#10094;</button>
+        <div class="carousel-items">
+          <img src="./A1.png" alt="Movie 1">
+          <img src="./A2.jpg" alt="Movie 2">
+          <img src="./A3.jpg" alt="Movie 3">
+          <img src="./A4.jpg" alt="Movie 4">
+          <img src="./A6.jpg" alt="Movie 5">
+          <img src="./A8.jpg" alt="Movie 6">
+          <img src="./A9.jpg" alt="Movie 7">
+          <img src="assets/movie3.jpg" alt="Movie 8">
+          <img src="assets/movie4.jpg" alt="Movie 9">
+          <img src="assets/movie5.jpg" alt="Movie 10">
+  
+        </div>
+        <button class="scroll-btn right" onclick="scrollRight('trending')">&#10095;</button>
+      </div>
+  </section>
+  <!-- Footer -->
+<footer class="footer">
+    <div class="footer-content">
+      <!-- Links Section -->
+      <div class="footer-links">
+        <ul>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Terms of Use</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Cookie Preferences</a></li>
+          <li><a href="#">Corporate Information</a></li>
+        </ul>
+      </div>
+      
+      <!-- Social Media Section -->
+      <div class="social-media">
+        <a href="#" aria-label="Facebook"><img src="./icons8-facebook-24.png" alt="Facebook"></a>
+        <a href="#" aria-label="Twitter"><img src="./icons8-twitter-24.png" alt="Twitter"></a>
+        <a href="#" aria-label="Instagram"><img src="./icons8-instagram-24.png" alt="Instagram"></a>
+        <a href="#" aria-label="YouTube"><img src="./icons8-youtube-24.png" alt="YouTube"></a>
+      </div>
+    </div>
+    
+    <p>&copy; Sai. All rights reserved.</p>
+  </footer>
+  
+</body>
+<script src="script.js"></script>
+</html>
